@@ -1,0 +1,11 @@
+<?php
+namespace App\Controllers;
+
+class EditUser
+{
+    public function render($userId)
+    {
+        // Simulate rendering the edit user view
+        return "Edit User Form for User ID: $userId";
+    }
+}
